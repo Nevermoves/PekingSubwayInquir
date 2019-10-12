@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+    <Line id="1号线">
+
+        <Station>苹果园</Station>
+        <Station>古城</Station>
+        <Station>八角游乐园</Station>
+        <Station>八宝山</Station>
+        <Station>玉泉路</Station>
+        <Station>五棵松</Station>
+        <Station>万寿路</Station>
+        <Station>公主坟</Station>
+        <Station>军事博物馆</Station>
+        <Station>木樨地</Station>
+        <Station>南礼士路</Station>
+        <Station>复兴门</Station>
+        <Station>西单</Station>
+        <Station>天安门西</Station>
+        <Station>天安门东</Station>
+        <Station>王府井</Station>
+        <Station>东单</Station>
+        <Station>建国门</Station>
+        <Station>永安里</Station>
+        <Station>国贸</Station>
+        <Station>大望路</Station>
+        <Station>四惠</Station>
+        <Station>四惠东</Station>
+
+    </Line>
+    
+	<Line id="2号线">
+
+        <Station>积水潭</Station>
+        <Station>鼓楼大街</Station>
+        <Station>安定门</Station>
+        <Station>雍和门</Station>
+        <Station>东直门</Station>
+        <Station>东四十条</Station>
+        <Station>朝阳门</Station>
+        <Station>建国门</Station>
+        <Station>北京站</Station>
+        <Station>崇文门</Station>
+        <Station>前门</Station>
+        <Station>和平门</Station>
+        <Station>宣武门</Station>
+        <Station>长椿门</Station>
+        <Station>复兴门</Station>
+        <Station>阜成门</Station>
+        <Station>车公庄</Station>
+        <Station>西直门</Station>
+        <Station>积水潭</Station>
+
+    </Line>
+    
+    <Line id="4号线大兴线">
+
+        <Station>安河桥北</Station>
+        <Station>北宫门</Station>
+        <Station>西苑</Station>
+        <Station>圆明园</Station>
+        <Station>北京大学东门</Station>
+        <Station>中关村</Station>
+        <Station>海淀黄庄</Station>
+        <Station>人民大学</Station>
+        <Station>魏公村</Station>
+        <Station>国家图书馆</Station>
+        <Station>动物园</Station>
+        <Station>西直门</Station>
+        <Station>新街口</Station>
+        <Station>平安里</Station>
+        <Station>西四</Station>
+        <Station>灵境胡同</Station>
+        <Station>西单</Station>
+        <Station>宣武门</Station>
+        <Station>菜市口</Station>
+        <Station>陶然亭</Station>
+        <Station>北京南站</Station>
+        <Station>马家堡</Station>
+        <Station>角门西</Station>
+        <Station>公益西桥</Station>
+        <Station>新宫</Station>
+        <Station>西红门</Station>
+        <Station>高米店北</Station>
+		<Station>高米店南</Station>
+        <Station>枣园</Station>
+        <Station>清源路</Station>
+        <Station>黄村西大街</Station>
+        <Station>黄村火车站</Station>
+        <Station>义和庄</Station>
+        <Station>生物医药基地</Station>
+        <Station>天宫院</Station>
+    </Line>
+    
+    <Line id="5号线">
+
+        <Station>天通苑北</Station>
+        <Station>天通苑</Station>
+        <Station>天通苑南</Station>
+        <Station>立水桥</Station>
+        <Station>立水桥南</Station>
+        <Station>北苑路北</Station>
+        <Station>大屯路东</Station>
+        <Station>惠新西街北口</Station>
+        <Station>惠新西街南口</Station>
+        <Station>和平西桥</Station>
+        <Station>和平里北桥</Station>
+        <Station>雍和宫</Station>
+        <Station>北新桥</Station>
+        <Station>张自忠路</Station>
+        <Station>东四</Station>
+        <Station>灯市口</Station>
+        <Station>东单</Station>
+        <Station>崇文街</Station>
+        <Station>磁器口</Station>
+        <Station>天坛东门</Station>
+        <Station>蒲黄榆</Station>
+        <Station>刘家窑</Station>
+        <Station>宋家庄</Station>
+
+    </Line>
+    
+    <Line id="6号线">
+    
+
+        <Station>金安桥</Station>
+        <Station>杨庄</Station>
+        <Station>西黄村</Station>
+        <Station>廖公庄</Station>
+        <Station>田村</Station>
+        <Station>海淀五路居</Station>
+        <Station>慈寿寺</Station>
+        <Station>花园桥</Station>
+        <Station>白石桥南</Station>
+        <Station>公车庄西</Station>
+        <Station>公车庄</Station>
+        <Station>平安里</Station>
+        <Station>北海北</Station>
+        <Station>南锣鼓巷</Station>
+        <Station>东四</Station>
+        <Station>朝阳门</Station>
+        <Station>东大桥</Station>
+        <Station>呼家楼</Station>
+        <Station>金台路</Station>
+        <Station>十里堡</Station>
+        <Station>青年路</Station>
+        <Station>褡裢坡</Station>
+        <Station>黄渠</Station>
+        <Station>常营</Station>
+        <Station>草房</Station>
+        <Station>物资学院路</Station>
+        <Station>通州北关</Station>
+        <Station>北运河西</Station>
+        <Station>北运河东</Station>
+        <Station>郝家府</Station>
+        <Station>东夏园</Station>
+        <Station>潞城</Station>
+
+    </Line>
+    
+    <Line id="7号线">
+    
+    	<Station>北京西站</Station>
+    	<Station>湾子</Station>
+    	<Station>达官营</Station>
+    	<Station>广安门内</Station>
+    	<Station>菜市场</Station>
+    	<Station>虎坊桥</Station>
+    	<Station>珠市口</Station>
+    	<Station>桥湾</Station>
+    	<Station>磁器口</Station>
+    	<Station>广渠门内</Station>
+    	<Station>广渠门外</Station>
+    	<Station>九龙山</Station>
+    	<Station>大郊亭</Station>
+    	<Station>百子湾</Station>
+    	<Station>化工</Station>
+    	<Station>南楼辛庄</Station>
+    	<Station>欢乐谷景区</Station>
+    	<Station>垡头</Station>
+    	<Station>双合</Station>
+    	<Station>焦化厂</Station>
+    	
+    </Line>
+    
+    <Line id="8号线">
+    
+    	<Station>朱辛庄</Station>
+    	<Station>育知路</Station>
+    	<Station>平西府</Station>
+    	<Station>回龙观东大街</Station>
+    	<Station>霍营</Station>
+    	<Station>育新</Station>
+    	<Station>西小口</Station>
+    	<Station>永泰庄</Station>
+    	<Station>林萃桥</Station>
+    	<Station>森林公园南门</Station>
+    	<Station>奥林匹克公园</Station>
+    	<Station>奥体中心</Station>
+    	<Station>北土城</Station>
+    	<Station>安华桥</Station>
+    	<Station>安德里北街</Station>
+    	<Station>鼓楼大街</Station>
+    	<Station>什刹海</Station>
+    	<Station>南锣鼓巷</Station>
+    	<Station>中国美术馆</Station>
+    	
+    </Line>
+    
+    <Line id="8号线南段">
+    
+    	<Station>珠市口</Station>
+    	<Station>天桥</Station>
+    	<Station>永定门外</Station>
+    	<Station>木樨园</Station>
+    	<Station>海户屯</Station>
+    	<Station>大红门南</Station>
+    	<Station>和义</Station>
+    	<Station>东高地</Station>
+    	<Station>火箭万源</Station>
+    	<Station>五福堂</Station>
+    	<Station>德茂</Station>
+    	<Station>瀛海</Station>
+    	
+    </Line>
+    
+    <Line id="9号线">
+    
+    	<Station>国家图书馆</Station>
+    	<Station>白石桥南</Station>
+    	<Station>白堆子</Station>
+    	<Station>军事博物馆</Station>
+    	<Station>北京西站</Station>
+    	<Station>六里桥东</Station>
+    	<Station>六里桥</Station>
+    	<Station>七里庄</Station>
+    	<Station>丰台东大街</Station>
+    	<Station>丰台南路</Station>
+    	<Station>科怡路</Station>
+    	<Station>丰台科技园</Station>
+    	<Station>郭公庄</Station>
+    	
+    </Line>
+    
+    <Line id="10号线">
+    
+    	<Station>巴沟</Station>
+    	<Station>苏州街</Station>
+    	<Station>海淀黄庄</Station>
+    	<Station>知春里</Station>
+    	<Station>知春路</Station>
+    	<Station>西土城</Station>
+    	<Station>牡丹园</Station>
+    	<Station>健德门</Station>
+    	<Station>北土城</Station>
+    	<Station>安贞门</Station>
+    	<Station>惠新西街南口</Station>
+    	<Station>芍药居</Station>
+    	<Station>太阳宫</Station>
+    	<Station>三元桥</Station>
+    	<Station>亮马桥</Station>
+    	<Station>农业展览馆</Station>
+    	<Station>团结湖</Station>
+    	<Station>呼家楼</Station>
+    	<Station>金台夕照</Station>
+    	<Station>国贸</Station>
+    	<Station>双井</Station>
+    	<Station>劲松</Station>
+    	<Station>潘家园</Station>
+    	<Station>十里河</Station>
+    	<Station>分钟寺</Station>
+    	<Station>成寿寺</Station>
+    	<Station>宋家庄</Station>
+    	<Station>石榴庄</Station>
+    	<Station>大红门</Station>
+    	<Station>角门东</Station>
+    	<Station>角门西</Station>
+    	<Station>草桥</Station>
+    	<Station>纪家庙</Station>
+    	<Station>首经贸</Station>
+    	<Station>丰台站</Station>
+    	<Station>泥洼</Station>
+    	<Station>西局</Station>
+    	<Station>六里桥</Station>
+    	<Station>莲花桥</Station>
+    	<Station>公主坟</Station>
+    	<Station>西钓鱼台</Station>
+    	<Station>慈寿寺</Station>
+    	<Station>车道沟</Station>
+    	<Station>长春桥</Station>
+    	<Station>火器营</Station>
+    	<Station>巴沟</Station>
+    	
+    </Line>
+    
+    <Line id="13号线">
+    
+    	<Station>西直门</Station>
+    	<Station>大钟寺</Station>
+    	<Station>知春路</Station>
+    	<Station>五道口</Station>
+    	<Station>上地</Station>
+    	<Station>西二旗</Station>
+    	<Station>龙泽</Station>
+    	<Station>回龙观</Station>
+    	<Station>霍营</Station>
+    	<Station>立水桥</Station>
+    	<Station>北苑</Station>
+    	<Station>望京西</Station>
+    	<Station>芍药居</Station>
+    	<Station>光熙门</Station>
+    	<Station>柳芳</Station>
+    	<Station>东直门</Station>
+    	
+    </Line>
+    
+    <Line id="14号线西段">
+    
+    	<Station>张郭庄</Station>
+    	<Station>园博园</Station>
+    	<Station>大瓦窑</Station>
+    	<Station>郭庄子</Station>
+    	<Station>大井</Station>
+    	<Station>七里庄</Station>
+    	<Station>西局</Station>
+    	
+    </Line>
+    
+    <Line id="14号线东段">
+    
+    	<Station>北京南站</Station>
+    	<Station>永定门外</Station>
+    	<Station>景泰</Station>
+    	<Station>蒲黄榆</Station>
+    	<Station>方庄</Station>
+    	<Station>十里河</Station>
+    	<Station>北工大西门</Station>
+    	<Station>平乐园</Station>
+    	<Station>九龙山</Station>
+    	<Station>大望路</Station>
+    	<Station>金台路</Station>
+    	<Station>朝阳公园</Station>
+    	<Station>枣营</Station>
+    	<Station>东风北桥</Station>
+    	<Station>将台</Station>
+    	<Station>望京南</Station>
+    	<Station>阜通</Station>
+    	<Station>望京</Station>
+    	<Station>东湖渠</Station>
+    	<Station>来广营</Station>
+    	<Station>善各庄</Station>
+    	
+    </Line>
+    
+    <Line id="15号线">
+    
+    	<Station>清华东路西口</Station>
+    	<Station>六道口</Station>
+    	<Station>北沙滩</Station>
+    	<Station>奥林匹克公园</Station>
+    	<Station>安立路</Station>
+    	<Station>大屯路东</Station>
+    	<Station>关庄</Station>
+    	<Station>望京西</Station>
+    	<Station>望京</Station>
+    	<Station>望京东</Station>
+    	<Station>崔各庄</Station>
+    	<Station>马泉营</Station>
+    	<Station>孙河</Station>
+    	<Station>国展</Station>
+    	<Station>花梨坎</Station>
+    	<Station>后沙峪</Station>
+    	<Station>南法信</Station>
+    	<Station>石门</Station>
+    	<Station>顺义</Station>
+    	<Station>俸伯</Station>
+    	
+    </Line>
+    
+    <Line id="16号线">
+    
+    	<Station>北安河</Station>
+    	<Station>温阳路</Station>
+    	<Station>稻香湖路</Station>
+    	<Station>屯佃</Station>
+    	<Station>永丰</Station>
+    	<Station>永丰南</Station>
+    	<Station>西北旺</Station>
+    	<Station>马连洼</Station>
+    	<Station>农大南路</Station>
+    	<Station>西苑</Station>
+    	
+    </Line>
+    
+    <Line id="八通线">
+    
+    	<Station>四惠</Station>
+    	<Station>四惠东</Station>
+    	<Station>高碑店</Station>
+    	<Station>传媒大学</Station>
+    	<Station>双桥</Station>
+    	<Station>管庄八里桥</Station>
+    	<Station>通州北苑</Station>
+    	<Station>果园</Station>
+    	<Station>九棵树</Station>
+    	<Station>梨园</Station>
+    	<Station>临河里</Station>
+    	<Station>北桥</Station>
+    	
+    </Line>
+    
+    <Line id="昌平线">
+    
+    	<Station>昌平西山口</Station>
+    	<Station>十三陵景区</Station>
+    	<Station>昌平</Station>
+    	<Station>昌平东关</Station>
+    	<Station>北邵洼</Station>
+    	<Station>南邵</Station>
+    	<Station>沙河高教区</Station>
+    	<Station>沙河</Station>
+    	<Station>巩华城</Station>
+    	<Station>朱辛庄</Station>
+    	<Station>生命科学园</Station>
+    	<Station>西二旗</Station>
+    	
+    </Line>
+    
+    <Line id="亦庄线">
+    
+    	<Station>宋家庄</Station>
+    	<Station>肖村</Station>
+    	<Station>小红门</Station>
+    	<Station>旧宫</Station>
+    	<Station>亦庄桥</Station>
+    	<Station>亦庄文化园</Station>
+    	<Station>万源街</Station>
+    	<Station>荣京东街</Station>
+    	<Station>荣昌东街</Station>
+    	<Station>同济南路</Station>
+    	<Station>经海路</Station>
+    	<Station>次渠南</Station>
+    	<Station>次渠</Station>
+    	<Station>亦庄火车站</Station>
+    	
+    </Line>
+    
+    <Line id="房山线">
+    
+    	<Station>郭公庄</Station>
+    	<Station>大葆台</Station>
+    	<Station>稻田</Station>
+    	<Station>长阳</Station>
+    	<Station>篱笆房</Station>
+    	<Station>广阳城</Station>
+    	<Station>良乡大学城北</Station>
+    	<Station>良乡大学城</Station>
+    	<Station>良乡大学城西</Station>
+    	<Station>良乡南关</Station>
+    	<Station>苏庄</Station>
+    	<Station>阎村东</Station>
+    	
+    </Line>
+    
+    <Line id="机场线">
+    
+    	<Station>东直门</Station>
+    	<Station>三元桥</Station>
+    	<Station>T2/T3航站楼</Station>
+    	
+    </Line>
+    
+    <Line id="燕房线">
+    
+    	<Station>燕山</Station>
+    	<Station>房山城关</Station>
+    	<Station>饶乐府</Station>
+    	<Station>马各庄</Station>
+    	<Station>大石河东</Station>
+    	<Station>星城</Station>
+    	<Station>阎村</Station>
+    	<Station>紫草坞</Station>
+    	<Station>阎村东</Station>
+    	
+    </Line>
+    
+    <Line id="西郊线">
+    
+    	<Station>香山</Station>
+    	<Station>植物园</Station>
+    	<Station>万安</Station>
+    	<Station>茶棚</Station>
+    	<Station>颐和园西门</Station>
+    	<Station>巴沟</Station>
+    	
+    </Line>
+    
+</root>
