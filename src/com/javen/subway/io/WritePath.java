@@ -1,6 +1,5 @@
 package com.javen.subway.io;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.javen.subway.control.Dijkstra;

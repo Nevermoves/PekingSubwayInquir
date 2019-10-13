@@ -1,5 +1,6 @@
 package com.javen.subway.model;
 
+import java.awt.print.Printable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.javen.subway.control.Dijkstra;
 import com.javen.subway.io.ReadLine;
 
 public class BuildMap {
@@ -118,7 +118,6 @@ public class BuildMap {
 	
 	public static List<Line> getPath(List<Integer> pathIndex){
 
-		
 		List<Line>path=new ArrayList<Line>();
 		
 		int len=pathIndex.size();
@@ -166,9 +165,9 @@ public class BuildMap {
 			Station noStation=map.get(pathIndex.get(1));
 			
 			Line laLine=null;
-			System.out.println(len);
-			for(int i=0;i<len;i++) {
 			
+			for(int i=0;i<len;i++) {
+				
 				if(i==0||(!noStation.getLine().contains(lines.get(laLine.getLineName())))) {
 					
 					for(Line l:laStation.getLine()) {
@@ -176,17 +175,18 @@ public class BuildMap {
 						if(noStation.getLine().contains(l)) {
 							
 							laLine=new Line(l.getLineName());
-							
 							laLine.addStation(laStation);
-							laLine.addStation(noStation);
+							if(i!=0)laLine.addStation(noStation);
 							
 							path.add(laLine);
+							break;
 						}
 					}
 				}
 				else {
 					
 					laLine.addStation(noStation);
+					
 				}
 				
 				laStation=noStation;

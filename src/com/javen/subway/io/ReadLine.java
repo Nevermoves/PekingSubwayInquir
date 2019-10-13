@@ -8,7 +8,6 @@ import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -20,10 +19,8 @@ public class ReadLine {
 	
 	private static Set<List<String>>set;
 	
-
 	public ReadLine(String fileName) throws Exception {
 		
-//		File file=new File("subway.xml");
 		File file=new File(fileName);
 		
 		if(!file.exists()) {

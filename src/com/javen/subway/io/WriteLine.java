@@ -1,26 +1,13 @@
 package com.javen.subway.io;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.omg.CORBA.PRIVATE_MEMBER;
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 import com.javen.subway.model.BuildMap;
 import com.javen.subway.model.Line;
 import com.javen.subway.model.Station;
 import com.javen.subway.write.impl.WriteImpl;
-import com.sun.org.apache.bcel.internal.generic.StackInstruction;
-import com.sun.org.apache.xerces.internal.util.EntityResolver2Wrapper;
 
-import sun.awt.windows.WLightweightFramePeer;
-import sun.print.resources.serviceui;
 
 public class WriteLine extends WriteImpl {
 
-	private List<String>wLine;
-	
 	public WriteLine(String fileName,String lineName) throws Exception {
 		
 		String line=getLine(lineName);

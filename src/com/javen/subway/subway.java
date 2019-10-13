@@ -1,9 +1,5 @@
 package com.javen.subway;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import com.javen.subway.io.ReadLine;
 import com.javen.subway.io.WriteLine;
 import com.javen.subway.io.WritePath;
@@ -12,8 +8,6 @@ import com.javen.subway.model.BuildMap;
 public class subway {
 
 	public static void main(String[] args) throws Exception {
-		
-		String map="-map \\S+ ";
 		
 		String line="-a \\S+ -map \\S+ -o \\S+ ";
 		String path="-b \\S+ \\S+ -map \\S+ -o \\S+ ";
@@ -30,9 +24,12 @@ public class subway {
 			String readFile=args[3];
 			String writeFile=args[5];
 			
+			@SuppressWarnings("unused")
 			ReadLine readLine=new ReadLine(readFile);
+			@SuppressWarnings("unused")
 			BuildMap buildMap=new BuildMap();
 			
+			@SuppressWarnings("unused")
 			WriteLine writeLine=new WriteLine(writeFile, lineName);
 		}else if(arge.matches(path)){
 			
@@ -41,9 +38,12 @@ public class subway {
 			String readFile=args[4];
 			String writeFile=args[6];
 			
+			@SuppressWarnings("unused")
 			ReadLine readLine=new ReadLine(readFile);
+			@SuppressWarnings("unused")
 			BuildMap buildMap=new BuildMap();
 			
+			@SuppressWarnings("unused")
 			WritePath writePath=new WritePath(writeFile,start,end);
 		}else {
 			System.out.println("请输入正确的参数!!!");
