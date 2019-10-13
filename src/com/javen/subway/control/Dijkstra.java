@@ -46,6 +46,10 @@ public class Dijkstra {
 	}
 	
 	private void init(String start,String end) {
+		if(start.equals(end)) {
+			System.out.println("±ðÀË·ÑÇ®°¡£¡");
+			System.exit(0);
+		}
 		
 		inf=Integer.MAX_VALUE;
 		
@@ -163,10 +167,6 @@ public class Dijkstra {
 			}
 		}
 		else {
-			
-			for(int i=0;i<from.get(now).size();i++) {
-				
-			}
 			
 			for(int last:from.get(now)) {
 				
