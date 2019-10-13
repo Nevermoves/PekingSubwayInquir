@@ -118,6 +118,7 @@ public class BuildMap {
 	
 	public static List<Line> getPath(List<Integer> pathIndex){
 
+		
 		List<Line>path=new ArrayList<Line>();
 		
 		int len=pathIndex.size();
@@ -165,8 +166,8 @@ public class BuildMap {
 			Station noStation=map.get(pathIndex.get(1));
 			
 			Line laLine=null;
-			
-			for(int i=0;i<len-1;i++) {
+			System.out.println(len);
+			for(int i=0;i<len;i++) {
 			
 				if(i==0||(!noStation.getLine().contains(lines.get(laLine.getLineName())))) {
 					
@@ -189,12 +190,10 @@ public class BuildMap {
 				}
 				
 				laStation=noStation;
-				noStation=map.get(pathIndex.get(i+1));
-				
-				
+				if(i<len-1)noStation=map.get(pathIndex.get(i+1));
+			
 			}
 		}
-		
 		
 		return path;
 	}
